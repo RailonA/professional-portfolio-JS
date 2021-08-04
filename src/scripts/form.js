@@ -14,6 +14,8 @@ const form = () => {
 
     const heading = document.createElement('h2');
     heading.innerHTML = "Contact Me Form ";
+    heading.id = 'contactMeLink';
+
     const contactp = document.createElement('p'); 
     contactp.textContent = 'If you have an application you are interested in developing, a feature that you need to be built, or a project that needs coding. I’d love to help with it.'
     contactp.className = 'text-center'

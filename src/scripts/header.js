@@ -12,14 +12,17 @@ const header = () => {
   const homeLink = document.createElement('a')
   homeLink.className = 'nav-link  col homeLink col-3 d-flex  ';
   homeLink.textContent = 'Home';
+  homeLink.setAttribute("href", "#home"); 
 
   const projectLink = document.createElement('a')
   projectLink.className = 'nav-link  col projectLink col-3 d-flex';
   projectLink.textContent = 'Project';
+  projectLink.setAttribute("href", "#projectLink"); 
 
   const contactMeLink = document.createElement('a')
   contactMeLink.className = 'nav-link  col contactMeLink col-3 d-flex';
   contactMeLink.textContent = 'Contact Me';
+  contactMeLink.setAttribute("href", "#contactMeLink"); 
 
   
   navbarWrapper.append(homeLink, projectLink, contactMeLink);

@@ -11,7 +11,8 @@ const main = () => {
   const main1H2 = document.createElement('h2')
   main1H2.className = 'd-flex text-center font-weight-bold text-capitalize';
   main1H2.textContent = 'Hey There.';
-  
+  main1H2.id = 'home';
+
   const main1H3 = document.createElement('h3')
   main1H3.className = 'd-flex text-center';
   main1H3.textContent = "I'm Railon";

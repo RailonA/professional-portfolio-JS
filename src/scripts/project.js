@@ -10,7 +10,7 @@ const project = () => {
     const projectSectionTitle = document.createElement('h2');
     projectSectionTitle.className = 'd-flex justify-content-center p-5'
     projectSectionTitle.textContent ='My Recent Projects'
-
+    projectSectionTitle.id = 'projectLink';
     const project1n2Wrapper = document.createElement('div');
     project1n2Wrapper.className= 'flex-xs-column  d-md-flex justify-content-center'
     const project3n4Wrapper = document.createElement('div');
