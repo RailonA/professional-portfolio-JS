@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+div .frameworkWrapper {
+  margin: 10px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+}
+
+// #navbarSupportedContent {
+
+// }
+
+.project {
+  background-color: #242424;
+  color: white;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 80%;
+}
+
+.project1Wrapper,
+.project2Wrapper,
+.project3Wrapper,
+.project4Wrapper {
+  box-shadow: 0.2px 0.2px 20px white;
+  background-size: 100% 100%;
+  margin: 20px;
+  border-radius: 10px;
+}

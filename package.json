@@ -7,7 +7,7 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production --watch",
     "start": "webpack-dev-server --mode development --open",
-     "watch": "webpack --watch",
+    "watch": "webpack --watch",
     "test": "jest"
   },
   "repository": {
@@ -58,7 +58,11 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "@cloudinary/base": "^1.0.0-beta.4",
+    "@cloudinary/react": "^1.0.0-beta.8",
     "@jest/globals": "^27.0.5",
+    "cloudinary": "^1.26.3",
+    "cloudinary-core": "^2.11.4",
     "date-fns": "^2.22.1"
   },
   "jest": {
