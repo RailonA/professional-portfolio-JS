@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Project Portfolio",
   "version": "1.0.0",
   "description": "A weather forecast site using the weather API",
   "main": "index.js",
