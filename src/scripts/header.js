@@ -3,10 +3,14 @@ import setAttributes from "./setAttributes";
 const header = () => {
 
   const header = document.createElement('header');
-  header.className = 'd-flex justify-content-between p-3 mb-2 bg-dark text-white';
+  header.className = 'd-flex justify-content-center p-3 mb-2 bg-dark text-white';
 
   const navbarWrapper = document.createElement('div')
-  navbarWrapper.className = 'collapse navbar-collapse d-flex justify-content-between col-12 ';
+  const navWrapper = document.createElement('div')
+
+  navWrapper.className = 'collapse navbar-collapse d-flex justify-content-center  col-8 ';
+  
+  navbarWrapper.className = 'collapse d-flex justify-content-center col-12 ';
   navbarWrapper.setAttribute('id', 'navbarSupportedContent')
   
   const homeLink = document.createElement('a')
@@ -24,8 +28,8 @@ const header = () => {
   contactMeLink.textContent = 'Contact Me';
   contactMeLink.setAttribute("href", "#contactMeLink"); 
 
-  
-  navbarWrapper.append(homeLink, projectLink, contactMeLink);
+  navWrapper.append(homeLink, projectLink, contactMeLink);
+  navbarWrapper.append(navWrapper);
   header.append(navbarWrapper);
   return header;
 };
