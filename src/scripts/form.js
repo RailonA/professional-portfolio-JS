@@ -2,11 +2,11 @@ import setAttributes from "./setAttributes";
 
 const form = () => {
     const form = document.createElement('div');
-    form.className = 'd-flex p-5';
+    form.className = 'd-flex justify-content-center';
   
 
     const createform = document.createElement('form'); // Create New Element Form
-    createform.className ='gform col-12 p-5 m-5 createform'
+    createform.className ='gform col-10 p-5 m-5 createform'
     createform.setAttribute("action", "https://script.google.com/macros/s/AKfycby7vIfBZGQPfdKnvrrCNZuPzODckbAfPUb-A2u1Kw/exec"); // Setting Action Attribute on Form
     createform.setAttribute("method", "post"); 
     createform.setAttribute("data-email", 'railonacosta@gmail.com')
