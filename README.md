@@ -12,7 +12,7 @@
 ## Live Link Demo
 [Live Link Demo](https://railona.github.io/professional-portfolio-JS/)
 
-![screenshot](./assets/PPSH.png)
+![screenshot](./dist/assets/PPSH.png)
 
 
 
