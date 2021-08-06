@@ -15,7 +15,7 @@
 
 ## Live preview link
 
-- <./dist/assets/PPSH.png>
+- <./assets/PPSH.png>
 
 
 
