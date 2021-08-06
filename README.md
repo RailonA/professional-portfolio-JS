@@ -9,9 +9,12 @@
 > This is a Profesional Template, where one can clone the repo and subtitle the information with their own.
 
 
-## Main screenshots
+## Live Link Demo
+[Live Link Demo](https://railona.github.io/professional-portfolio-JS/)
 
-![screenshot](https://railona.github.io/professional-portfolio-JS/)
+![screenshot](./assets/PPSH.png)
+
+
 
 ## Live preview link
 
