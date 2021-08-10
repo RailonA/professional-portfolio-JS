@@ -3,7 +3,7 @@ import setAttributes from "./setAttributes";
 const footer = () => {
 
   const footer = document.createElement('footer');
-  footer.className = 'd-flex justify-content-center';
+  footer.className = 'd-flex justify-content-center ';
 
 
   const footerWrapper = document.createElement('div')
@@ -14,6 +14,7 @@ const footer = () => {
   
   const pdfWrapper = document.createElement('a')
   pdfWrapper.className = '';
+  pdfWrapper.setAttribute("target", '_blank')
   pdfWrapper.setAttribute("href", './assets/RailonAcostaResume.pdf')
   pdfWrapper.className = 'btn btn-dark text-light'
   pdfWrapper.textContent = 'Get My Resume'

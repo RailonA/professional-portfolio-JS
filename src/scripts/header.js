@@ -10,7 +10,7 @@ const header = () => {
 
   navWrapper.className = 'collapse navbar-collapse d-flex justify-content-center  col-8 ';
   
-  navbarWrapper.className = 'collapse d-flex justify-content-center col-12 ';
+  navbarWrapper.className = 'collapse d-flex justify-content-center col-8 ';
   navbarWrapper.setAttribute('id', 'navbarSupportedContent')
   
   const homeLink = document.createElement('a')

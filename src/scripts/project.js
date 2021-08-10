@@ -25,8 +25,9 @@ const project = () => {
     img1.src = './assets/planeGame.png';
 
     const button1 = document.createElement('button')
+    button1.className = 'me-5 mb-3'
     const button1A = document.createElement('a')
-    button1A.className = 'project_link'
+    button1A.className = 'project_link '
     button1A.setAttribute("target", '_blank')
     button1A.textContent = 'Live Link'
     button1A.setAttribute("href", 'https://railona.github.io/rpg-plane-game/')
@@ -66,6 +67,7 @@ const project = () => {
     })
     
     const button3 = document.createElement('button')
+    button3.className = 'me-5 mb-3'
     const button3A = document.createElement('a')
     button3A.className = 'project_link'
     button3A.setAttribute("target", '_blank')
@@ -99,6 +101,7 @@ const project = () => {
     })
 
     const button5 = document.createElement('button')
+    button5.className = 'me-5 mb-3'
     const button5A = document.createElement('a')
     button5A.className = 'project_link'
     button5A.setAttribute("target", '_blank')
@@ -132,6 +135,7 @@ const project = () => {
     })
     
     const button7 = document.createElement('button')
+    button7.className = 'me-5 mb-3'
     const button7A = document.createElement('a')
     button7A.className = 'project_link'
     button7A.setAttribute("target", '_blank')

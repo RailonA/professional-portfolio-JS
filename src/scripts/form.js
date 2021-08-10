@@ -2,9 +2,10 @@ import setAttributes from "./setAttributes";
 
 const form = () => {
     const form = document.createElement('div');
-    form.className = 'flex-column';
+    form.className = 'formDiv col-12 ';
+    
     const  frameworkWrapper= document.createElement('div')
-    frameworkWrapper.className = 'd-sm-flex  text-center  justify-content-center frameworkWrapper mb-5'
+    frameworkWrapper.className = 'd-sm-flex  text-center frameworkWrapper mb-5 mt-10 col-10'
   
     const  languageDiv= document.createElement('div')
       languageDiv.className = ' col-xs-12  col-sm-4 col-md-4 text-center justify-content-center m-3'
@@ -22,7 +23,7 @@ const form = () => {
   
   
     const  frameworkDiv= document.createElement('div')
-    frameworkDiv.className = 'col-xs-12 col-sm-4 col-md-4 text-center justify-content-center m-3'
+    frameworkDiv.className = 'col-xs-12 col-sm-4 col-md-4 text-center justify-content-center m-3 '
     const title2H3 = document.createElement('h3')
     title2H3.textContent ="Framework"
     title2H3.className = "title-type"
@@ -52,7 +53,7 @@ const form = () => {
     
   
   const createform = document.createElement('form'); 
-    createform.className ='gform col-10 p-5 m-5 createform'
+    createform.className ='gform col-10 p-5  createform'
     createform.setAttribute("action", "https://script.google.com/macros/s/AKfycby7vIfBZGQPfdKnvrrCNZuPzODckbAfPUb-A2u1Kw/exec"); 
     createform.setAttribute("method", "post"); 
     createform.setAttribute("data-email", 'railonacosta@gmail.com')

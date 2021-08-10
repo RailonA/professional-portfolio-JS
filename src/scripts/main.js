@@ -30,7 +30,7 @@ const main = () => {
   letsConnectWrapper.className = ' flex-xs-column d-sm-flex justify-content-center  d-sm-flex  col-xs-12 col-12 p-3 ';
 
   const ConnectWrapper = document.createElement('div')
-  ConnectWrapper.className = 'd-flex justify-content-around col-xs-12 col-sm-6  ';
+  ConnectWrapper.className = 'd-flex justify-content-around col-xs-6 col-sm-4  ';
 
   const textWrapper = document.createElement('h3')
   textWrapper.className = 'd-flex justify-content-center  title-type textWrapper';
