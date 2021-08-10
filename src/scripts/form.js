@@ -50,8 +50,8 @@ const form = () => {
     title3p4.textContent ="Gitlab"
 
     
-
-    const createform = document.createElement('form'); // Create New Element Form
+  
+  const createform = document.createElement('form'); // Create New Element Form
     createform.className ='gform col-10 p-5 m-5 createform'
     createform.setAttribute("action", "https://script.google.com/macros/s/AKfycby7vIfBZGQPfdKnvrrCNZuPzODckbAfPUb-A2u1Kw/exec"); // Setting Action Attribute on Form
     createform.setAttribute("method", "post"); 
