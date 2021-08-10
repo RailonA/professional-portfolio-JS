@@ -14,17 +14,17 @@ const header = () => {
   navbarWrapper.setAttribute('id', 'navbarSupportedContent')
   
   const homeLink = document.createElement('a')
-  homeLink.className = 'nav-link  col homeLink col-3 d-flex title-type ';
+  homeLink.className = 'nav-link  col homeLink col d-flex title-type justify-content-center';
   homeLink.textContent = 'Home';
   homeLink.setAttribute("href", "#home"); 
 
   const projectLink = document.createElement('a')
-  projectLink.className = 'nav-link  col projectLink col-3 d-flex title-type';
+  projectLink.className = 'nav-link  col projectLink col d-flex title-type justify-content-center';
  projectLink.textContent = 'Project';
   projectLink.setAttribute("href", "#projectLink"); 
 
   const contactMeLink = document.createElement('a')
-  contactMeLink.className = 'nav-link  col contactMeLink col-3 d-flex title-type';
+  contactMeLink.className = 'nav-link  col contactMeLink col d-flex title-type justify-content-center';
   contactMeLink.textContent = 'Contact Me';
   contactMeLink.setAttribute("href", "#contactMeLink"); 
 
