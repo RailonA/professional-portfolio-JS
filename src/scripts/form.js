@@ -51,9 +51,9 @@ const form = () => {
 
     
   
-  const createform = document.createElement('form'); // Create New Element Form
+  const createform = document.createElement('form'); 
     createform.className ='gform col-10 p-5 m-5 createform'
-    createform.setAttribute("action", "https://script.google.com/macros/s/AKfycby7vIfBZGQPfdKnvrrCNZuPzODckbAfPUb-A2u1Kw/exec"); // Setting Action Attribute on Form
+    createform.setAttribute("action", "https://script.google.com/macros/s/AKfycby7vIfBZGQPfdKnvrrCNZuPzODckbAfPUb-A2u1Kw/exec"); 
     createform.setAttribute("method", "post"); 
     createform.setAttribute("data-email", 'railonacosta@gmail.com')
     createform.setAttribute("target", '_blank')
@@ -63,7 +63,7 @@ const form = () => {
     heading.id = 'contactMeLink';
     heading.className = 'd-flex justify-content-center title-type'
     const contactp = document.createElement('p'); 
-    contactp.textContent = 'If you have an application you are interested in developing, a feature that you need to be built, or a project that needs coding. I’d love to help with it.'
+    contactp.textContent = 'If you have an application you are interested in developing, a feature that you need to be built, or a project that needs coding, I’d love to help with it.'
     contactp.className = 'text-center '
 
     const line = document.createElement('hr'); 
@@ -72,7 +72,9 @@ const form = () => {
     const namePart = document.createElement('div');
     namePart.className ='mb-3 d-flex justify-content-center'
     const namelabel = document.createElement('label'); 
-    namelabel.innerHTML = "Your Name : "; 
+    namelabel.innerHTML = "Your Name: "; 
+    namelabel.className = 'message-label'
+
     const inputelement = document.createElement('input'); 
     inputelement.setAttribute("type", "text");
     inputelement.setAttribute("name", "dname");
@@ -80,8 +82,9 @@ const form = () => {
     const emailPart = document.createElement('div');
     emailPart.className ='mb-3 d-flex justify-content-center'
     const emaillabel = document.createElement('label'); 
-    emaillabel.innerHTML = "Your Email : ";
-    
+    emaillabel.innerHTML = "Your Email: ";
+    emaillabel.className = 'message-label'
+
     const emailelement = document.createElement('input'); 
     emailelement.setAttribute("type", "text");
     emailelement.setAttribute("name", "demail");
@@ -91,8 +94,8 @@ const form = () => {
     const emailbreak = document.createElement('br');
     
     const messagelabel = document.createElement('label'); 
-    messagelabel.innerHTML = "Your Message : ";
-    
+    messagelabel.innerHTML = "Your Message: ";
+    messagelabel.className = 'message-label'
     const texareaelement = document.createElement('textarea');
     texareaelement.setAttribute("name", "dmessage");
     

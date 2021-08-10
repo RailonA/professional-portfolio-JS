@@ -15,7 +15,7 @@ const header = () => {
   
   const homeLink = document.createElement('a')
   homeLink.className = 'nav-link  col homeLink col-3 d-flex title-type ';
-homeLink.textContent = 'Home';
+  homeLink.textContent = 'Home';
   homeLink.setAttribute("href", "#home"); 
 
   const projectLink = document.createElement('a')

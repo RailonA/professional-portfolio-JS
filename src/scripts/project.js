@@ -50,7 +50,7 @@ const project = () => {
     const project1Disc = document.createElement('p');
     project1Disc.textContent= "Description:"
     const project1Description = document.createElement('p');
-    project1Description.textContent ="This project is a capstone project required by Microverse, after completing the javascript curriculum. This project is a 2D Game built-in Javascript and Phaser 3."
+    project1Description.textContent =" A 2D Game built-in JavaScript and Phaser 3. Users play as airplane and have to shoot down the enemy and try getting the high score."
     project1Description.className = 'text-center'
 
     const project2Wrapper = document.createElement('div');
@@ -83,7 +83,7 @@ const project = () => {
     const project2Disc = document.createElement('p');
     project2Disc.textContent= "Description:"
     const project2Description = document.createElement('p');
-    project2Description.textContent ="This project is part of Javascript Module with the aim of building an advanced Weather App that displays details about the weather of a typed city-town."
+    project2Description.textContent ="This project is an advanced Weather App that displays details about the weather of a typed city or town."
     project2Description.className = 'text-center'
 
     const project3Wrapper = document.createElement('div');
@@ -92,7 +92,7 @@ const project = () => {
     const img3 = document.createElement('img')
     img3.className = 'img3'
     img3.src = "./assets/restaurentPage.png"
-    project3Title.textContent ='Title: Restaurent Page'
+    project3Title.textContent ='Title: Restaurant Page'
     project3Title.className = 'm-3 col-12 title-type'
     project3Title.addEventListener('click', () => {
       window.location='https://github.com/RailonA/restaurentPage';
@@ -103,19 +103,19 @@ const project = () => {
     button5A.className = 'project_link'
     button5A.setAttribute("target", '_blank')
     button5A.textContent = 'Live Link'
-    button5A.setAttribute("href", 'https://railona.github.io/restaurentPage/')
+    button5A.setAttribute("href", 'https://railona.github.io/restaurantPage/')
     
     const button6A = document.createElement('a')
     const button6 = document.createElement('button')
     button6A.className = 'project_link'
     button6A.setAttribute("target", '_blank')
     button6A.textContent = 'Repo Link'
-    button6A.setAttribute("href", 'https://github.com/RailonA/restaurentPage')
+    button6A.setAttribute("href", 'https://github.com/RailonA/restaurantPage')
 
     const project3Disc = document.createElement('p');
     project3Disc.textContent= "Description:"
     const project3Description = document.createElement('p');
-    project3Description.textContent ="A single-page app built with JavaScript that uses a restaurant page template."
+    project3Description.textContent ="A single-page restaurant page template built with JavaScript."
     project3Description.className = 'text-center'
 
 
@@ -148,7 +148,7 @@ const project = () => {
     const project4Disc = document.createElement('p');
     project4Disc.textContent= "Description:"
     const project4Description = document.createElement('p');
-    project4Description.textContent ="You will be able to sign in, sign up at the home page, post thoughts/opinions, only the users who sign in can see and create an opinion, if you opt to sign out, then you won’t be able to see the opinions at all. You can upload your profile picture and cover photo. You can follow other users and see their opinions directly on your home page."
+    project4Description.textContent ="A social media clone that allows user to sign in, sign up at the home page, post thoughts/opinions. Users can follow other users and see their opinions directly on your home page."
     project4Description.className = 'text-center'
 
     button1.append(button1A)
