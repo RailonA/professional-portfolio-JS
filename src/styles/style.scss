@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+div .frameworkWrapper {
+  margin: 10px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+header a {
+  color: white;
+}
+
+.main-fab {
+  text-decoration: none;
+  color: #242424;
+}
+
+.fab-footer {
+  text-decoration: none;
+  color: white;
+}
+
+.project_link {
+  text-decoration: none;
+  color: #242424;
+}
+
+header a:hover {
+  color: white;
+}
+
+.title-type {
+  font-family: 'Russo One', sans-serif;
+}
+
+.project {
+  background-color: #242424;
+  color: white;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 80%;
+}
+
+.project1Wrapper,
+.project2Wrapper,
+.project3Wrapper,
+.project4Wrapper {
+  box-shadow: 0.2px 0.2px 20px white;
+  background-size: 100% 100%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.form {
+  background-color: white;
+}
+
+.createform {
+  box-shadow: 0.2px 0.2px 20px #242424;
+  background-size: 100% 100%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.thankyou_message {
+  display: none;
+}
+
+footer {
+  background-color: #242424;
+}
+
+footer i {
+  color: white;
+}
