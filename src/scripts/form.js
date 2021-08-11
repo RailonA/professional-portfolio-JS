@@ -5,10 +5,10 @@ const form = () => {
     form.className = 'formDiv col-12 ';
     
     const  frameworkWrapper= document.createElement('div')
-    frameworkWrapper.className = 'd-sm-flex  text-center frameworkWrapper mb-5 mt-10 col-10'
+    frameworkWrapper.className = 'd-sm-flex  text-center frameworkWrapper mb-5 mt-10 col-10 justify-content-between'
   
     const  languageDiv= document.createElement('div')
-      languageDiv.className = ' col-xs-12  col-sm-4 col-md-4 text-center justify-content-center m-3'
+      languageDiv.className = ' col-xs-12  col-sm-3 col-md-3 text-center justify-content-center m-3'
     const title1H3 = document.createElement('h3')
     title1H3.textContent ="Language"
     title1H3.className = "title-type"
@@ -23,7 +23,7 @@ const form = () => {
   
   
     const  frameworkDiv= document.createElement('div')
-    frameworkDiv.className = 'col-xs-12 col-sm-4 col-md-4 text-center justify-content-center m-3 '
+    frameworkDiv.className = 'col-xs-12 col-sm-3 col-md-3 text-center justify-content-center m-3 '
     const title2H3 = document.createElement('h3')
     title2H3.textContent ="Framework"
     title2H3.className = "title-type"
@@ -37,7 +37,7 @@ const form = () => {
     title2p4.textContent ="Capybara"
   
     const  skillsDiv= document.createElement('div')
-    skillsDiv.className = ' col-xs-12  col-sm-4 col-md-4 text-center justify-content-center m-3'
+    skillsDiv.className = ' col-xs-12  col-sm-3 col-md-3 text-center justify-content-center m-3'
     const title3H3 = document.createElement('h3')
     title3H3.textContent ="Skills"
     title3H3.className = "title-type"
