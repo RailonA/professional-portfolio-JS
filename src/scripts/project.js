@@ -3,7 +3,8 @@ import setAttributes from "./setAttributes";
 const project = () => {
     const project = document.createElement('div');
     project.className = 'flex-column project ';
-  
+    // project.setAttribute("id", "particles-js");
+
     const projectWrapper = document.createElement('div');
      projectWrapper.className = 'flex-xs-column'
 
@@ -174,6 +175,7 @@ const project = () => {
 
     projectWrapper.append(project1n2Wrapper, project3n4Wrapper);   
     project.append(projectSectionTitle, projectWrapper)
+
     return project;
   };
   
